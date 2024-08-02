@@ -1,0 +1,13 @@
+body {
+    background-image: url('https://st2.depositphotos.com/1119809/6930/v/950/depositphotos_69302735-stock-illustration-hand-drawn-feathers-seamless-pattern.jpg');
+    background-repeat: repeat;
+}
+
+.body-padrao {
+    z-index: 10;
+}
+
+a {
+    text-decoration: none;
+    color: dimgray;
+}
