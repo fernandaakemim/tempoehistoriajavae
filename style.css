@@ -1,10 +1,46 @@
+:root {
+    --bg-nav: #38614b;
+    --marcacao: #ed8140;
+    --text-nav: #ffffff;
+    --text: #353535;
+}
+
+.menu,
+.menu a {
+    background-color: var(--bg-nav);
+    color: var(--text-nav);
+}
+
+.menu a:hover,
+.active, .navbar-nav .nav-link.show {
+    color: var(--text-nav) !important;
+    font-weight: 600;
+}
+
+.menu li:hover {
+    background-color: var(--bg-nav) !important;
+}
+
 body {
-    background-image: url('https://st2.depositphotos.com/1119809/6930/v/950/depositphotos_69302735-stock-illustration-hand-drawn-feathers-seamless-pattern.jpg');
+    background-image: url(./src/BACKGROUND_.png);
     background-repeat: repeat;
 }
 
-.body-padrao {
-    z-index: 10;
+.dropdown-menu {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-color: #00000000;
+    --bs-dropdown-link-hover-bg: var(--bg-nav);
+}
+
+.navbar-nav .nav-link.show {
+    color: var(--bs-navbar-active-color);
+}
+
+h1 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-stretch: condensed;
 }
 
 a {
@@ -14,4 +50,6 @@ a {
 
 .texto {
     text-align: justify;
+    font-family: Helvetica;
+    font-weight: 400;
 }
