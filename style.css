@@ -37,7 +37,7 @@ body {
     color: var(--bs-navbar-active-color);
 }
 
-h1 {
+h1, .titulo {
     font-family: Helvetica;
     font-weight: bold;
     font-stretch: condensed;
@@ -52,4 +52,20 @@ a {
     text-align: justify;
     font-family: Helvetica;
     font-weight: 400;
+}
+
+@media (min-width: 992px) {
+    .borda {
+        border-right: 2px solid #ed8140;
+    }
+
+    .nav-link {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .menu {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
 }
