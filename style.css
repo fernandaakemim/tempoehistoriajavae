@@ -43,6 +43,10 @@ h1, .titulo {
     font-stretch: condensed;
 }
 
+.titulo-page {
+    color: var(--marcacao);
+}
+
 a {
     text-decoration: none;
     color: dimgray;
