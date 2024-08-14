@@ -9,12 +9,14 @@
 .menu a {
     background-color: var(--bg-nav);
     color: var(--text-nav);
+    font-family: Helvetica;
+    font-weight: 400;
 }
 
 .menu a:hover,
 .active, .navbar-nav .nav-link.show {
     color: var(--text-nav) !important;
-    font-weight: 600;
+    font-weight: 600 !important;
 }
 
 .menu li:hover {
