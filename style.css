@@ -60,6 +60,11 @@ a {
     font-weight: 400;
 }
 
+.rodape {
+    background-color: var(--bg-nav);
+    color: var(--text-nav);
+}
+
 @media (min-width: 992px) {
     .borda {
         border-right: 2px solid #ed8140;
