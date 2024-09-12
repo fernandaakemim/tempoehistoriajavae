@@ -28,6 +28,11 @@ body {
     background-repeat: repeat;
 }
 
+figcaption {
+    font-size: .8em;
+    text-align: justify;
+}
+
 .dropdown-menu {
     padding-top: 0px;
     padding-bottom: 0px;
